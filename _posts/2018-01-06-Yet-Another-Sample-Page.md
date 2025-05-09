@@ -1,124 +1,127 @@
+Newer
+FrixTel
+1 minute ago
+
+Add files via upload
 ---
-title: Yet Another Sample Page
+title: Proyecto de Ejemplo Mejorado
 published: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+## ✨ Bienvenido a tu Proyecto
 
-[Link to another page](another-page).
+Este archivo proporciona una guía básica para comenzar con tu proyecto. Asegúrate de personalizarlo según las necesidades de tu repositorio.
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## 📄 Descripción
 
-# [](#header-1)Header 1
+Este proyecto es un ejemplo estructurado para demostrar cómo documentar eficazmente usando Markdown. Aquí puedes combinar distintos estilos, incluir código fuente, imágenes, listas y más.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+---
 
-## [](#header-2)Header 2
+## 📌 Recomendaciones
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Te sugerimos incluir un archivo `README.md` con información clave como:
 
-### [](#header-3)Header 3
+- Propósito del proyecto
+- Tecnologías utilizadas
+- Instrucciones de instalación y uso
+- Créditos o autores
+
+---
+
+## 💡 Sintaxis de Markdown
+
+Puedes aplicar estilos de texto como:
+
+- **Negrita**
+- _Cursiva_
+- ~~Tachado~~
+- `Código en línea`
+
+También puedes incluir [enlaces internos](#📄-descripción) o externos.
+
+---
+
+## 🧩 Ejemplo de Código
+
+### JavaScript
 
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+const greet = (name) => {
+  console.log(`Hola, ${name}!`);
+};
+greet("Mundo");
 ```
+
+### Ruby
 
 ```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+items = ["ruby", "rails", "jekyll"]
+items.each { |item| puts "Gem: #{item}" }
 ```
 
-#### [](#header-4)Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## 📝 Listas
 
-##### [](#header-5)Header 5
+### Lista Ordenada
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1. Primer paso
+2. Segundo paso
+3. Tercer paso
 
-###### [](#header-6)Header 6
+### Lista Desordenada
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+- Opción A
+- Opción B
+- Opción C
 
-### There's a horizontal rule below this.
+### Lista Anidada
 
-* * *
+- Nivel 1
+  - Nivel 2
+    - Nivel 3
 
-### Here is an unordered list:
+---
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## 📊 Tablas
 
-### And an ordered list:
+| Lenguaje | Tipo      | Popularidad |
+|----------|-----------|-------------|
+| Python   | Backend   | ⭐⭐⭐⭐⭐       |
+| JavaScript | Frontend | ⭐⭐⭐⭐        |
+| Ruby     | Fullstack | ⭐⭐⭐         |
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+---
 
-### And a nested list:
+## 📷 Imágenes
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+### Icono
 
-### Small image
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+### Diagrama
 
-### Large image
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+---
 
-
-### Definition lists can be used with HTML syntax.
+## 📚 Definiciones (HTML)
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>Framework</dt>
+<dd>Conjunto de herramientas para desarrollar software.</dd>
+<dt>Repositorio</dt>
+<dd>Ubicación donde se almacena y mantiene código fuente.</dd>
 </dl>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+---
 
-```
-The final element.
-```
+## 📎 Notas Finales
+
+> “Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades no están a tu favor.”  
+> — Elon Musk
+
+---
